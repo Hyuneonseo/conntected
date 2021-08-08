@@ -1,0 +1,127 @@
+#wide_cont.prjt-2 {
+    background-color: unset;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#wide_cont .cont-box.desc {
+    width: 100%;
+    background-color: #494949;
+    padding-bottom: 70px;
+}
+.cont-box.desc .sub-tit {
+    width: 1000px;
+    margin: auto;
+    display: block;
+    height: 80px;
+    position: relative;
+    top: -50px;
+}
+.cont-box.desc .sub-tit img {
+    width: 500px;
+    display: block;
+    float: right; 
+}
+.cont-box.desc .cont-tit {
+    font: 25px NTB;
+    width: 1000px;
+    margin: auto;
+    color: white;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+.cont-box.desc .cont-desc {
+    font: 18px NTR;
+    line-height: 29px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 19px;
+    color: white;
+}
+.cont-box.main-screen {
+    width: 100%;
+    background-color: #1C1C1C;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.cont-box.main-screen .cont-main {
+    width: 1100px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.cont-box.main-screen .cont-main:nth-last-of-type(1) {
+    margin-bottom: 0px;
+}
+.cont-box.main-screen .cont-main img {
+    width: 100%;
+}
+.cont-box.sub-screen {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 300px;
+}
+.cont-box.sub-screen img {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+.cont-box.cont-bttm {
+    width: 100%;
+    position: relative;
+}
+.cont-box.cont-bttm img {
+    width: 100%;
+    position: absolute;
+    bottom: -2px;
+}
+@media only screen and (max-width:1100px) {
+    #main_cont.prjt-1 {
+        width: 92%;
+    }
+    .cont-box.desc .sub-tit {
+        width: 92%;
+        top: -30px;
+        height: 65px;
+    }
+    .cont-box.desc .cont-tit {
+        width: 92%;
+        white-space: unset;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .cont-box.desc .cont-desc {
+        width: 92%;
+        font: 18px NTR;
+        line-height: 29px;
+        margin-bottom: 19px;
+    }
+    .cont-box.main-screen .cont-main {
+        width: 92%;
+        margin-bottom: 40px;
+    }
+    .cont-box.desc .sub-tit img {
+        width: 300px;
+        float: unset;
+        margin: auto;
+    }
+    .cont-box.cont-bttm {
+        height: 36px;
+    }
+    #wide_cont.prjt-2 {
+        margin-top: 0px;
+    }
+    #wide_cont .cont-box.desc {
+        padding-bottom: 40px;
+    }
+    .cont-box.main-screen {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .cont-box.sub-screen img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .cont-box.sub-screen {
+        margin-bottom: 100px;
+    }
+}
